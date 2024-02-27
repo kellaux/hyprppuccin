@@ -1,7 +1,7 @@
 #!/bin/bash
 path=~/.config/hypr
 source $path/scripts/globalvariables
-images=($(find $path/wallpaper -type f))
+images=($(find $path/wallpapers -type f))
 swww img ${images[$nextindex]} \
       --transition-type wipe \
       --transition-fps=60 \
